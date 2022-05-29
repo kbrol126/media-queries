@@ -1,6 +1,4 @@
-body{
-    justify-content: center;
-}
+
     
 @media (max-width:375px){
     
@@ -27,12 +25,22 @@ body{
         .botonera{ grid-template-columns: 75px 75px 75px 75px;}
         button.button{background-color: #E35C5C;
         border: 5px solid #000000;}
+        header.header{
+            height: 74px;
+        }
+        img.imagen{
+            height: 43px;
+            width: 119px;
+        }
         article.parrafos{
             display: grid;
             grid-template-columns: 251px 251px 251px;
             grid-row: auto;
             width: auto;
             justify-content: center;
+            align-items: center;
+            margin: 254px auto auto auto 
+            
             
         }
         p{width: 251px;}
@@ -42,12 +50,14 @@ body{
     display: grid;
     grid-template-columns: auto auto;
    justify-content: space-between;
+   align-items: center;
    width: auto;
    height: 54px;
       
 }
 .imagen{
-    margin: 14px auto 13px 24px
+    margin: 14px auto 13px 24px;
+    ;
 }
 
 .botonera{
